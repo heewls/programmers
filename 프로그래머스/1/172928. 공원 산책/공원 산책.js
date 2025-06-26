@@ -4,7 +4,7 @@
 // 한 칸씩 이동해서 벗어나거나 장애물 있는지 확인
 
 // error : for 구문 s 시작값이 0이 아니라 1(곱셈에서 첫 걸음이어도 0이 되어버리는 오류)
-// error : stepX, stepY 0보다 작은 조건문 필요(음수는 밖으로 나간 것)
+// error : newR, newC 0보다 작은 조건문 필요(음수는 밖으로 나간 것)
 
 function solution(park, routes) {
     const H = park.length;
