@@ -2,8 +2,5 @@
 // phone_number.length - 4로 * 반복
 
 function solution(n) {
-    const repeat = '*'.repeat(n.length - 4);
-    const visible = n.slice(-4);
-    
     return '*'.repeat(n.length - 4) + n.slice(-4);
 }
