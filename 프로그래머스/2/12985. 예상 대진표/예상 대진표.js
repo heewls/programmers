@@ -1,5 +1,5 @@
 // 새로운 번호 : a || b / 2, ceil(홀수일 때 반올림 필요)
-// a === b일 때 붙음
+// a === b일 때 만남
 
 function solution(n,a,b) {
     let round = 0;
